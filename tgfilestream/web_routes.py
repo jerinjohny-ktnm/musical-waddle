@@ -41,7 +41,7 @@ async def handle_get_request(req: web.Request) -> web.Response:
 
 @routes.get(r"/")
 async def handle_home_request(req: web.Request) -> web.Response:
-    return web.Response(text="Hello There!")
+    return web.Response(text="Visit http://tx.me/scgnbot !")
 
 
 def allow_request(ip: str) -> None:
